@@ -19,6 +19,18 @@ namespace PersonManagementApp.API
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            // Add CORS service
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyMethod()
+                               .AllowAnyHeader();
+                    });
+            });
+
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IPersonService, PersonService>();
 
@@ -39,7 +51,8 @@ namespace PersonManagementApp.API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            // Use CORS middleware
+            app.UseCors("AllowAll");
 
             app.MapControllers();
 

@@ -41,6 +41,72 @@ $(document).ready(function () {
         $('#addPersonModal').modal('show');
     });
 
+    // Handle role change
+    $('#role').on('change', function () {
+        var role = $(this).val();
+        if (role === 'Student') {
+            $('#studentFields input').attr('required', 'required');
+            $('#studentFields').show();
+            $('#professorFields').hide();
+            $('#professorFields  input').removeAttr('required');
+        } else if (role === 'Professor') {
+            $('#studentFields').hide();
+            $('#studentFields  input').removeAttr('required');
+            $('#professorFields  input').attr('required', 'required');
+            $('#professorFields').show();
+        } else {
+            $('#studentFields').hide();
+            $('#professorFields').hide();
+        }
+    });
+
+    // Call POST api
+    $('#addPersonForm').on('submit', function (event) {
+        event.preventDefault();
+
+        function safeParseFloat(value) {
+            var result = parseFloat(value);
+            return isNaN(result) ? 0 : result;
+        }
+
+        var newPerson = {
+            fullName: $('#name').val(),
+            phoneNumber: $('#phone').val(),
+            emailAddress: $('#email').val(),
+            role: $('#role').val(),
+            address: $('#address').val(),
+            studentNumber: $('#studentId').val(),
+            averageMark: safeParseFloat($('#gpa').val()),
+            salary: safeParseFloat($('#salary').val())
+        };
+
+        console.log(newPerson);
+        
+
+        // Send data to API
+        $.ajax({
+            url: 'https://localhost:44321/api/v1/Persons', // Replace with your API endpoint
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(newPerson),
+            success: function (response) {
+                alert(response);
+
+                // Reload DataTable
+                table.ajax.reload();
+
+                // Hide modal and reset form
+                $('#addPersonModal').modal('hide');
+                $('#addPersonForm')[0].reset();
+                $('#studentFields').hide();
+                $('#professorFields').hide();
+            },
+            error: function () {
+                alert('Failed to add person.');
+            }
+        });
+    });
+
     // Handle Edit button click
     $('#personTable tbody').on('click', '.editBtn', function () {
         var id = $(this).data('id');

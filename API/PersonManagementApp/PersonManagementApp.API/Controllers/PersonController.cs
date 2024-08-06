@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using PersonManagementApp.Business.Dto;
 using PersonManagementApp.Business.Interfaces;
 
