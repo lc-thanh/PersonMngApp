@@ -1,0 +1,14 @@
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\bin\Debug\net6.0\PersonManagementApp.Data.deps.json
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\bin\Debug\net6.0\PersonManagementApp.Data.runtimeconfig.json
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\bin\Debug\net6.0\PersonManagementApp.Data.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\bin\Debug\net6.0\PersonManagementApp.Data.pdb
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.csproj.AssemblyReference.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.AssemblyInfoInputs.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.AssemblyInfo.cs
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.csproj.CoreCompileInputs.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\refint\PersonManagementApp.Data.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.pdb
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\PersonManagementApp.Data.genruntimeconfig.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Data\obj\Debug\net6.0\ref\PersonManagementApp.Data.dll

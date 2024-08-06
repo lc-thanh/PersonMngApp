@@ -1,0 +1,15 @@
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\bin\Debug\net6.0\PersonManagementApp.Business.deps.json
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\bin\Debug\net6.0\PersonManagementApp.Business.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\bin\Debug\net6.0\PersonManagementApp.Business.pdb
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\bin\Debug\net6.0\PersonManagementApp.Data.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\bin\Debug\net6.0\PersonManagementApp.Data.pdb
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.csproj.AssemblyReference.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.AssemblyInfoInputs.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.AssemblyInfo.cs
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.csproj.CoreCompileInputs.cache
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.csproj.CopyComplete
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\refint\PersonManagementApp.Business.dll
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\PersonManagementApp.Business.pdb
+E:\ThucTapFPT\main\Tuan5\05.08\Project\API\PersonManagementApp\PersonManagementApp.Business\obj\Debug\net6.0\ref\PersonManagementApp.Business.dll
